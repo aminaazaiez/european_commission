@@ -75,7 +75,7 @@ class Orbis:
                                         'BvD sectors' :'BvD sectors' ,
                                         'NAICS 2022, core code - description' : 'NAICS',
                                         'Last avail. year' : 'Last year',
-                                        'Operating revenue (Turnover)\nth USD Last avaFreil. yr' : 'Revenue',
+                                        'Operating revenue (Turnover)\nth USD Last avail. yr' : 'Revenue',
                                         'Total assets\nth USD Last avail. yr' : 'Assets',
                                         'Number of employees\nLast avail. yr' : 'Nb employees',
                                         'No of companies in corporate group' : 'corporate group size',

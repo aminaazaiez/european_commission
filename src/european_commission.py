@@ -63,8 +63,8 @@ class EuropeanCommission:
         self.generate_hypergraph()
         # Add ec members titles and departments using meetings df
         mems = members_info(self.meetings, data_path, reload=reload) 
-        # Add entities info with processing for duplicated entities
-        self.entities = add_entities_info(self.entities, data_path, mems, self.mapper, reload=reload)
+        # # Add entities info with processing for duplicated entities
+        # self.entities = add_entities_info(self.entities, data_path, mems, self.mapper, reload=reload)
 
         # Generate hypergraph
         self.meetings = collapse_entities(self.meetings, self.mapper)
